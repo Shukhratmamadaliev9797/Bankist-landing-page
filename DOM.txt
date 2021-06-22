@@ -1,0 +1,19 @@
+document.createElement(''); - is used to create new element 
+_.innerHTML = '';          - is used to add content and new elements in created element
+_.textContent = '';        - is used to add only text content
+_.prepend(...);            - is used to add new element(...) as first child into dom element(_)
+_.append(...);             - is used to add new element(...)as last child of that (_) element 
+_.after(...);              - is used to add new element (...) after that (_) element
+_.before(...);             - is used to add new element(...) before that(_) element
+Number.parseFloat();       - is used to extract float number from string if the number first like 19px not px19
+_.cloneNode(true);         - is used to clone this (_) element
+getComputedStyle(_).height - is used to get style from _ this
+_.getAttribute('(attribute)'); -is used to get attribute from _ this
+_.setAttribute('attr name', 'value'); is used to create attr in _ this
+_.childNodes 
+_.children                 - is used to get child elements of selected element(_)
+_.firstChildElement        - is used to get first child element of the selected element (_)
+_.lastChildElement         - is used to get last child element of the selected element(_)
+_.parentNode               -
+_.parentElement            - is used to get parent element of the selected element
+_.closest('className')     - is used to get parent element of the selected element it is oposite method of query selector
